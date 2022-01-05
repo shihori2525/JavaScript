@@ -1,8 +1,7 @@
-let i;
-let num = 0;
+alert(4+3);
 
-for(i = 1; i < 11; i++){
-  num = num + i;
-}
+alert(8-5);
 
-alert('1から10まで足し算した結果は' + num + 'です');
+alert(2*6);
+
+alert(10/2);
