@@ -1,7 +1,9 @@
-alert(4+3);
+let alertString;
+alertString = addString("WebCamp");
 
-alert(8-5);
+alert(alertString);
 
-alert(2*6);
-
-alert(10/2);
+function addString(strA){
+  let addStr = "Hello"+strA;
+  return addStr;
+}
